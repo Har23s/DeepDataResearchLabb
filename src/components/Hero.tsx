@@ -43,21 +43,6 @@ export default function Hero({ onNavigate }: HeroProps) {
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <img 
-            src="/images/ddrl.jpeg" 
-            alt="DDRL Logo" 
-            className="h-24 w-24 mx-auto mb-6 object-contain"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.style.display = 'none';
-            }}
-          />
-          
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-4">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              DDRL
-            </span>
-          </h1>
           
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-2">
             Deep Data Research Lab

@@ -54,7 +54,9 @@ export default function Hero({ onNavigate }: HeroProps) {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-xl sm:text-2xl text-blue-200 font-medium mb-6"
           >
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Train. Transform. Thrive.
+            </span>
           </motion.p>
         </motion.div>
 
